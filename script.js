@@ -67,6 +67,6 @@
     var msg = document.getElementById('cfMsg').value.trim();
     var subject = encodeURIComponent('Website inquiry from ' + name);
     var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + msg);
-    window.location.href = 'mailto:jskang78@gmail.com?subject=' + subject + '&body=' + body;
+    window.location.href = 'mailto:info@prismxe.com?subject=' + subject + '&body=' + body;
   });
 })();
